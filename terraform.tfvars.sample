@@ -1,0 +1,9 @@
+digitalocean_token = "<api_token>"
+
+digitalocean_fingerprints = [
+  "<ssk_key_fingerprint>" # (e.g. 2b:64:40:7a:b3:5f:90:2d:7b:0e:ed:e3:6b:6a:1d:55)
+]
+
+droplet_size = "512mb"
+droplet_image = "ubuntu-16-04-x64"
+droplet_region = "sfo2"
