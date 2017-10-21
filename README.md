@@ -22,8 +22,11 @@ Simple Terraform environment used to quickly up droplets on [Digital Ocean](http
 Each of the commands below should be run locally from the repository root:
 
 ```bash
-$ terraform plan
+terraform plan
+```
 
+Output:
+```
 No changes. Infrastructure is up-to-date.
 
 This means that Terraform did not detect any differences between your
@@ -32,8 +35,11 @@ actions need to be performed.
 ```
 
 ```bash
-$ terraform apply
+terraform apply
+```
 
+Output:
+```
 Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
 
 Outputs:
